@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PhysicsDoom | Computational Physics</title>
+    <style>
+        :root {
+            --bg: #0d1117;
+            --text: #c9d1d9;
+            --accent: #58a6ff;
+            --code-bg: #161b22;
+        }
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        h1, h2 { color: var(--accent); font-family: 'Courier New', Courier, monospace; }
+        .terminal {
+            background: var(--code-bg);
+            border: 1px solid #30363d;
+            padding: 20px;
+            border-radius: 6px;
+            font-family: 'Courier New', Courier, monospace;
+            margin-bottom: 30px;
+        }
+        .project-card {
+            border: 1px solid #30363d;
+            padding: 20px;
+            border-radius: 6px;
+            transition: transform 0.2s;
+        }
+        .project-card:hover {
+            transform: translateY(-5px);
+            border-color: var(--accent);
+        }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .tag {
+            font-size: 0.8rem;
+            background: #238636;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 10px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="terminal">
+        <h1>> physics_doom --init</h1>
+        <p>System: C++ Computational Physics Portfolio</p>
+        <p>Status: <span style="color: #238636;">Online</span></p>
+    </div>
+
+    <section>
+        <h2>About Me</h2>
+        <p>Focusing on high-performance simulations, numerical methods, and engine architecture in C++.</p>
+    </section>
+
+    <section>
+        <h2>Projects</h2>
+        
+        <div class="project-card">
+            <h3>N-Body Gravity Simulator</h3>
+            <p>A high-concurrency simulation utilizing Barnes-Hut tree structures for efficient gravitational calculations.</p>
+            <div>
+                <span class="tag">C++20</span>
+                <span class="tag">OpenMP</span>
+                <span class="tag">CMake</span>
+            </div>
+            <br>
+            <a href="https://github.com/YOUR_USERNAME/PROJECT_NAME">View Source Code →</a>
+        </div>
+
+        </section>
+
+    <footer style="margin-top: 50px; opacity: 0.6; font-size: 0.8rem;">
+        <p>&copy; 2026 PhysicsDoom. Built with C++ soul.</p>
+    </footer>
+
+</body>
+</html>
